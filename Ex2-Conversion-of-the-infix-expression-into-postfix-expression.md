@@ -8,9 +8,9 @@ To write a C program to convert the infix expression into postfix form using sta
 2. Read the infix expression from left to right.
 3. If it’s a number, add it to postfix; if it’s (, push it to the stack.
 4. If it’s an operator or ):
-
 Pop from the stack to postfix if the stack top has higher or equal precedence.
 Push the operator to the stack (or discard ( if it’s a closing parenthesis).
+
 5. At the end, pop all remaining operators from the stack to postfix.
 
 ## Program:
