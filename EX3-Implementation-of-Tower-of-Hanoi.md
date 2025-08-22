@@ -8,11 +8,11 @@ To write a C program to implement Tower of Hanoi
 2. If n = 1, move the disk directly from source to destination and stop.
 3. If n > 1:
 
-Move n-1 disks from source to auxiliary peg.
+       Move n-1 disks from source to auxiliary peg.
 
-Move the largest disk from source to destination peg.
+       Move the largest disk from source to destination peg.
 
-Move the n-1 disks from auxiliary to destination peg.
+       Move the n-1 disks from auxiliary to destination peg.
 
 4. Repeat the steps recursively until all disks are moved.
 5. End when all disks are successfully transferred from source to destination.
